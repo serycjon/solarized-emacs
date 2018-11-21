@@ -246,7 +246,7 @@ Alpha should be a float between 0 and 1."
           (s-mode-line-bg (if solarized-high-contrast-mode-line
                               base0 base02))
           (s-mode-line-underline (if solarized-high-contrast-mode-line
-                                     nil s-line))
+                                     nil nil))
 
           (s-mode-line-buffer-id-fg (if solarized-high-contrast-mode-line
                                         'unspecified base1))
