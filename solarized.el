@@ -253,7 +253,7 @@ Alpha should be a float between 0 and 1."
           (s-mode-line-inactive-fg (if solarized-high-contrast-mode-line
                                        base0 base01))
           (s-mode-line-inactive-bg (if solarized-high-contrast-mode-line
-                                       base02 base03))
+                                       base02 base02))
           (s-mode-line-inactive-bc (if solarized-high-contrast-mode-line
                                        base02 base02))
           )
